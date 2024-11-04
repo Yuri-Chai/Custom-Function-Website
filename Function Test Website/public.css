@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-image: url(2560x1080.jpg);
+}
+
+
+.navbar {
+    position: absolute;
+    background-color: purple;
+    width: 100%;
+    height: 6%;
+    color: black;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.navbar button {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.version {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.goback {
+    
+}
