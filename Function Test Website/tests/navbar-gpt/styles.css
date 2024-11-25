@@ -1,0 +1,61 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the navigation bar */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-bar > li {
+  position: relative;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.nav-bar a:hover {
+  background-color: #555;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 160px;
+  list-style: none;
+}
+
+.dropdown-content li {
+  border-top: 1px solid #444;
+}
+
+.dropdown-content li a {
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
